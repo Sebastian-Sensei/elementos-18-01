@@ -1,0 +1,7 @@
+CREATE TABLE mensajito(
+id integer primary key auto_increment,
+titulo varchar(50),
+cuerpo varchar(250)
+);
+
+SELECT * FROM mensajito;
